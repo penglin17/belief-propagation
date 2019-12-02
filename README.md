@@ -9,4 +9,4 @@ The input .uai file has the following constriants:
 The output .uai file needs to run on a belief propagation platform supporting the format. In the TRC region graph, nodes id number is the same with the original nodes id number. Nodes id number > original nodes size are intermediate nodes added by the TRC algorithm. 
 
 The RGBF algorithm is also written in Java, which is used for improving the numerical stability when the absolute region counting numbers are large. The source code for RGBF will be added later. 
-Efficiency optimization (by node reusing and relaxation of perfect correlation) code will also upload soon.
+Efficiency optimization (by node reuse and relaxation of perfect correlation) code will also upload soon.
