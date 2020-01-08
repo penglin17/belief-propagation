@@ -27,9 +27,9 @@ public class BuildTRC_RG {
      public BuildTRC_RG() {
     
          try{
-         // assumming all nodes are ordered such that the triplet X Y Z is ordered in a way X is always defined before Y, and
+         // assuming all nodes are ordered such that the triplet X Y Z is ordered in a way X is always defined before Y, and
          //Z is the child node
-             // BufferedReader bf2= new BufferedReader(new FileReader("or152ordered.txt"));// input ordered npt file
+             // BufferedReader bf2= new BufferedReader(new FileReader("promedas_ordered.uai"));// input ordered npt file
               BufferedReader bf2= new BufferedReader(new FileReader("pedigree_ordered.uai"));
               //pedigree_ordered.uai//another test file
         String s2 = null;
