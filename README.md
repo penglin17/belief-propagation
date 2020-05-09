@@ -1,7 +1,6 @@
 The code_TRC.rar is only used to build our TRC outer regions and to run it please use a simulation environment supporting the .uai format. Please also ensure the simulation environment supporting the CVM algorithm. For instance, the external simulation environment one could use:
 
 https://github.com/aegelfand/GBP
-
 https://github.com/radum2275/merlin
 
 There are four folders in the code repository including the Java source code, input files, data and the test models. The test models for TRC can be built automatically by constructing a Java application using the source code and the input files. The input file specifies the variables, cardinalities and the factors (already binary factorized) in a BN, with all parent-child node ordering predefined. This means all variables in a triplet factor {X,Y,Z} has been ordered in a way such that X is defined before Y (in the factor list), and Z is the child node. We have listed all input file names in the source code, and to run it, just uncomment a file name. The output will be a .uai file containing the TRC outer regions, which can run using our suggested simulation platform by the CVM command.
