@@ -9,3 +9,4 @@ For example, put the input file "asia_input.uai" at the root folder of the Java 
 
 The current implementation is v1.0 and is only used for demostration of the TRC algorithm. It ensures all test models in our folder run correctly for the TRC but it is not bug free. However, we are maintaining the code and welcoming any comments.
 
+Region Graph Binary Factorization (RGBF) algorithm will be uploaded separately soon.
