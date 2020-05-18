@@ -9,4 +9,4 @@ For example, put the input file "asia_input.uai" at the root folder of the Java 
 
 The current implementation is v1.0 and is only used for demostration of the TRC algorithm. It is not bug free but we are maintaining the code and welcoming any comments.
 
-Region Graph Binary Factorization (RGBF) algorithm and CCCP algorithms are implemented in AgenaRisk so the file cccp+RGBF.java is only used for a reference. 
+Region Graph Binary Factorization (RGBF) algorithm and CCCP algorithms are implemented in AgenaRisk (https://www.agenarisk.com/) so the file cccp+RGBF.java is only used for a reference. 
