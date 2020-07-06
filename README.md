@@ -1,3 +1,5 @@
+The TRC code automatically build outer regions following the BFG framework (in the paper), without the need to create a BFG. It follows the BFG framework in a virtual way. For example, you don’t need to create the BFG for the Asia BN but follow the BFG structure and output the outer regions directly. 
+
 The code_TRC.rar is only used to build our TRC outer regions and to run it please use a simulation environment supporting the .uai format. Please also ensure the simulation environment supporting the CVM algorithm. For instance, the external simulation environment one could use:
 
 https://github.com/aegelfand/GBP
