@@ -15,6 +15,6 @@ For example, put the input file "asia_input.uai" at the root folder of the Java 
 
 The current implementation is v1.0 and is only used for demonstration of the TRC algorithm. It may not be bug-free but we are maintaining the code and welcoming any comments.
 
- 
+The rgbf.rar contains Java pseudocode for the Region Graph Binary Factorization (RGBF) algorithm, which can be used as a reference to build your own RGBF function for a region graph.
 
 maintenance: p.lin17@outlook.com
