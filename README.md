@@ -17,4 +17,6 @@ The current implementation is v1.0 and is only used for demonstration of the TRC
 
 The rgbf.rar contains Java pseudocode for the Region Graph Binary Factorization (RGBF) algorithm, which can be used as a reference to build your own RGBF function for a region graph.
 
+The TRC (along with RGBF) algorithm will be fully integrated into AgenaRisk (BN software for risk analysis and decision making, www.agenarisk.com) soon.
+
 maintenance: linpeng.cs@gmail.com
