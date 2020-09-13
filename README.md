@@ -10,10 +10,11 @@ https://github.com/aegelfand/GBP
 
 https://github.com/radum2275/merlin
 
-There are four folders in the code repository including the Java source code, input files, data and the test models. The test models for TRC can be built automatically by constructing a Java application using the source code and the input files. The input file specifies the variables, cardinalities and the factors (already binary factorized) in a BN, with all parent-child node ordering predefined. This means all variables in a triplet factor {X,Y,Z} has been ordered in a way such that X is defined before Y (in the factor list), and Z is the child node. We have listed all input file names in the source code, and to run it, just uncomment a file name. The output will be a .uai file containing the TRC outer regions, which can run using our suggested simulation platform by the CVM command.
+The code_TRCv1.0 includes the Java source code, input files, data and the test models. 
+The test models for TRC can be built automatically by constructing a Java application using the source code and the input files. The input file specifies the variables, cardinalities and the factors (already binary factorized) in a BN, with all parent-child node ordering predefined. This means all variables in a triplet factor {X,Y,Z} has been ordered in a way such that X is defined before Y (in the factor list), and Z is the child node. We have listed all input file names in the source code, to run it, simply uncomment a file name. The output will be a .uai file containing the TRC outer regions, which can run on our suggested simulation platform using the CVM algorithm.
 For example, put the input file "asia_input.uai" at the root folder of the Java application and uncomment the file name "asia_input" in the source code, the output will be a list of competing regions displayed to the console and an output file "asia_TRC.uai" generated automatically. The "test models" folder also includes the .uai files for all competing algorithms.
 
-The current implementation is v1.0 and is only used for demonstration of the TRC algorithm. It may not be bug-free but we are maintaining the code and welcoming any comments.
+The current implementation is v1.0 and a small upgrade version v1.1.  
 
 The rgbf.rar contains Java pseudocode for the Region Graph Binary Factorization (RGBF) algorithm, which can be used as a reference to build your own RGBF function for a region graph.
 
