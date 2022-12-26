@@ -20,4 +20,4 @@ The rgbf.rar contains Java pseudocode for the Region Graph Binary Factorization 
 
 The TRC (along with RGBF) algorithm is also integrated into AgenaRisk (BN software for risk analysis and decision making, www.agenarisk.com).
 
-maintenance: linpeng.cs@gmail.com
+maintenance: linpeng.cs[at]gmail.com
